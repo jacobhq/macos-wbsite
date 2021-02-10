@@ -131,9 +131,33 @@ body {
   font-weight: 500;
 }
 
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 5%;
+}
+
+li p {
+    color: white;
+    font-size: 1rem;
+}
+
+li b {
+    color: white;
+    font-size: 1rem;
+}
+
 .grid {
   display: grid;
-  grid-template-columns: 49% auto 49%;
+  grid-template-columns: 49% auto 25% auto 25%;
   width: 100%;
   margin: 10%;
+}
+
+.cta-desc {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 2.5%;
 }
