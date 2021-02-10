@@ -48,6 +48,19 @@ body {
 .s2 .box {
     padding-left: 25%;
     padding-right: 25%;
+    margin-top: -10%;
+}
+
+.s2 img {
+    width: 75%;
+    margin-top: 30%;
+    object-fit: contain;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 .s2 h1 {

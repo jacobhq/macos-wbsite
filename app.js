@@ -9,6 +9,11 @@ new fullpage("#fullpage", {
     const img = section.querySelectorAll(".box img");
     const tl = new TimelineMax({ delay: 0.5 });
     tl.fromTo(img, 0.5, { y: "50", opacity: 0 }, { y: "0", opacity: 1 });
+    if (destination.index === 1) {
+        const states = document.querySelectorAll(".h")
+        tl.fromTo(states[1], 1, { opacity: 0 }, { opacity: 1 })
+        .fromTo(states[0], 1, { opacity: 1 }, { opacity: 0 });
+    }
     if (destination.index === 2) {
       const macs = document.querySelectorAll(".pc");
       const description = document.querySelector(".description");
