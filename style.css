@@ -93,12 +93,14 @@ body {
 
 .s4 img {
     width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    margin-top: -15%;
+    margin-top: -5%;
     object-fit: contain;
     overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 .s4 h1 {
@@ -109,7 +111,7 @@ body {
     text-align: center;
     position: absolute;
     width: 100%;
-    margin-top: -5%;
+    margin-top: 10%;
 }
 
 .s5 .bg {
